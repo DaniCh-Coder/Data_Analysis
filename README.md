@@ -34,10 +34,10 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
    - Different types of data structures (structured, semi-structured, and unstructured) and how to handle them in a project. Relational databases, NoSQL, JSON files, XML, and others. How to choose the right data structure based on the project's needs. Documentation.
 
 ## 6. **Data Verification**
-   - This section should cover techniques and tools for verifying data quality and consistency. It should include identifying missing values, duplicates, formatting errors, and outliers. It is also important to mention how to establish data validation processes to ensure reliability before using the data for analysis.
+   - Techniques and tools for verifying data quality and consistency. Identifying missing values, duplicates, formatting errors, and outliers. It is also important to mention how to establish data validation processes to ensure reliability before using the data for analysis.
 
 ## 7. **Data Visualization**
-   - This section should address the importance of data visualization for effectively communicating insights and results. It should include a discussion on best practices for creating charts and dashboards, as well as the most commonly used tools (Tableau, Power BI, Matplotlib, etc.). It is also important to mention how to choose the right type of visualization based on the target audience and the data being represented.
+   - The importance of data visualization for effectively communicating insights and results. Best practices for creating charts and dashboards, as well as the most commonly used tools (Tableau, Power BI, Matplotlib, etc.). How to choose the right type of visualization based on the target audience and the data being represented.
 
 ---
 
