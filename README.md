@@ -21,7 +21,7 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
 ## 1. [**Methodologies for Data Project Management**](methodology-analysis.md)
    - The most widely used methodologies in data project management, such as **CRISP-DM**, **SEMMA**, **TDSP**, and **Agile Data Science**.
 
-## 2. **Data for a Project**
+## 2. [**Data for a Project**](Data-needed-for-project)
    - How to identify and select the necessary data for a project. This includes defining data sources (internal and external), the relevance of the data to the project's objectives, and how to ensure the data is suitable for analysis. 
 
 ## 3. **Utility Function of Data**
