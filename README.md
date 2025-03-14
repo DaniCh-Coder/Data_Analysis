@@ -18,7 +18,7 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
 
 # **Table of Contents: Data Project Management**
 
-## 1. **Methodologies for Data Project Management**
+## 1. [**Methodologies for Data Project Management**](methodology-analysis.md)
    - The most widely used methodologies in data project management, such as **CRISP-DM**, **SEMMA**, **TDSP**, and **Agile Data Science**.
 
 ## 2. **Data for a Project**
