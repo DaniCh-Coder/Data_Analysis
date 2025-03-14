@@ -30,7 +30,7 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
 ## 4. **Data and Metadata**
    - The importance of metadata (data about data) in a project. How metadata helps in understanding the origin, structure, meaning, and quality of data.
 
-## 5. **Data and Structures**
+## 5. [**Data and Structures. Documentation**](data-structures-documentation.md)
    - Different types of data structures (structured, semi-structured, and unstructured) and how to handle them in a project. Relational databases, NoSQL, JSON files, XML, and others. How to choose the right data structure based on the project's needs. Documentation.
 
 ## 6. **Data Verification**
