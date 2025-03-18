@@ -184,6 +184,6 @@ With demographic data, purchase history, interactions, etc.:
 - Reduce 30+ behavioral variables to 3-5 components that describe main patterns
 - Identify customer segments based on these reduced components
 
-## Practical guidance questionnaire
+#### Practical guidance questionnaire
 - Are there redundant columns? Why?
 - Are there irrelevant columns? Why?
