@@ -2,7 +2,9 @@
 
 Understanding what data is necessary for a data analysis project helps define its utility function. In general, best practices emerge from experience, both for defining essential data and for understanding the type of data that best represents it.
 The table in the figure shows, for example, a data structure for a customer file or table.
-[Tabla Clientes](client-table-struct.png)
+
+![Tabla Clientes](client-table-struct.png)
+
 This is a fairly straightforward data structure. 
 To understand this, let's review the basic data types in a relational table or file.
 
