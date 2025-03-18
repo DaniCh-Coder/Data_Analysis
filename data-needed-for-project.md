@@ -1,5 +1,7 @@
 # Data needed for a project
+Understanding what data is needed for a data analysis project is so important that regulations and frameworks (templates) have been developed for this purpose.
 
+## Introduction
 Understanding what data is necessary for a data analysis project helps define its utility function. In general, best practices emerge from experience, both for defining essential data and for understanding the type of data that best represents it.
 The table in the figure shows, for example, a data structure for a customer file or table.
 
@@ -10,7 +12,7 @@ To understand this, let's review the basic data types in a relational table or f
 
 ---
 
-## Explanation of Basic Data Types in Relational Databases
+### Explanation of Basic Data Types in Relational Databases
 
 - **VARCHAR(n)**: Used for short text strings, where `n` is the maximum length.
 - **TEXT**: Used to store long text, such as addresses and comments.
@@ -20,7 +22,7 @@ To understand this, let's review the basic data types in a relational table or f
 
 ---
 
-## Key Validations
+### Key Validations
 Data types, whether basic or not, must be respected throughout the data lifecycle.
 For this purpose, there is the concept of validation, which consists of verifying that the data adheres to the format and premises under which it should be loaded, stored, and processed.
 
@@ -80,7 +82,7 @@ There are relevant regulations, primarily related to:
 
 Each country or region may have its own regulations on data collection, storage, and use.
 
-## Templates
+## Methodologies and Templates
 
 There are several templates and methodologies that can help:
 
