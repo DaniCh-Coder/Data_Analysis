@@ -10,7 +10,7 @@ To understand this, let's review the basic data types in a relational table or f
 
 ---
 
-## Explanation of Data Types
+## Explanation of Basic Data Types in Relational Databases
 
 - **VARCHAR(n)**: Used for short text strings, where `n` is the maximum length.
 - **TEXT**: Used to store long text, such as addresses and comments.
@@ -21,6 +21,8 @@ To understand this, let's review the basic data types in a relational table or f
 ---
 
 ## Key Validations
+Data types, whether basic or not, must be respected throughout the data lifecycle.
+For this purpose, there is the concept of validation, which consists of verifying that the data adheres to the format and premises under which it should be loaded, stored, and processed.
 
 - **Email**: Must follow the format `user@domain.com`.
 - **Phone**: Recommended international format `+54 9 11 1234 5678`.
