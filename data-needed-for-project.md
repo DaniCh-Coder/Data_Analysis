@@ -34,7 +34,8 @@ For this purpose, there is the concept of validation, which consists of verifyin
 
 ## Analysis of Customer Address
 
-When analyzing the customer data structure, we see that it does not provide sufficient information. Indeed, the table in the following figure shows a well-detailed data structure for a customer address. This includes a more comprehensive breakdown with data such as:
+When analyzing the customer data structure, we see that it does provide sufficient information. Indeed, the table in the following figure shows a well-detailed data structure for a customer address. 
+This includes a more comprehensive breakdown with data such as:
 
 - Address number
 - Neighborhood
