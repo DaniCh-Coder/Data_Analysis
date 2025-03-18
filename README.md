@@ -24,7 +24,7 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
 ## 2. [**Data for a Project**](data-needed-for-project.md)
    - How to identify and select the necessary data for a project. This includes defining data sources (internal and external), the relevance of the data to the project's objectives, and how to ensure the data is suitable for analysis. 
 
-## 3. **Utility Function of Data**
+## 3. [**Utility Function of Data**](DUF-of-data-project.md)
    - How data generates value for the business or project. How data can be used to make informed decisions, optimize processes, predict trends, or solve specific problems.
 
 ## 4. **Data and Metadata**
