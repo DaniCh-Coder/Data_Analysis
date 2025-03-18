@@ -27,7 +27,7 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
 ## 3. [**Utility Function of Data**](DUF-of-data-project.md)
    - How data generates value for the business or project. How data can be used to make informed decisions, optimize processes, predict trends, or solve specific problems.
 
-## 4. **Data and Metadata**
+## 4. [**Data and Metadata**](data-metadata.md)
    - The importance of metadata (data about data) in a project. How metadata helps in understanding the origin, structure, meaning, and quality of data.
 
 ## 5. [**Data and Structures. Documentation**](data-structures-documentation.md)
