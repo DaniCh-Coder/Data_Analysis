@@ -36,7 +36,7 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
 ## 6. [**Data Normalization**](data-normalization.md)
    - Organizing data in a database to reduce redundancy and improve data integrity. Dividing large tables into smaller, related tables and establishing relationships between them using primary and foreign keys.
 
-## 7. **Data Verification**
+## 7. [**Data Validation and Verification**](data-validation-verification.md)
    - Techniques and tools for verifying data quality and consistency. Identifying missing values, duplicates, formatting errors, and outliers. It is also important to mention how to establish data validation processes to ensure reliability before using the data for analysis.
 
 ## 7. **Data Visualization**
