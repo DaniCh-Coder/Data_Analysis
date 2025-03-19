@@ -77,10 +77,11 @@ df = df.drop_duplicates()
 df['City'] = df['City'].str.strip()
 
 print(df)
-´´´
+```
 
 # Conclusion
 
 Data cleansing is key to ensuring reliable analysis. It can be the slowest stage in a data project.
+
 - However, implementing it correctly saves time and improves the accuracy of any data project.
 - Otherwise, the project progresses and then moves backward so many times that the time loss becomes even greater.
