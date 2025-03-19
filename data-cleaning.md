@@ -60,7 +60,7 @@ Methods for finding out-of-range values:
 - SQL (queries with CASE, TRIM(), DISTINCT, GROUP BY) – For cleaning data in databases.
 
 ## Example in Python with Pandas
-´´´python
+```python
 import pandas as pd
 
 # Sample dataset
@@ -77,7 +77,7 @@ df = df.drop_duplicates()
 df['City'] = df['City'].str.strip()
 
 print(df)
-```
+´´´
 
 # Conclusion
 
