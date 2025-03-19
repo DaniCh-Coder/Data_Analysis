@@ -43,7 +43,10 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
    - Processing an cleaning dirty data
    - It is also important to mention how to establish data validation processes to ensure reliability before using the data for analysis.
 
-## 8. [**Data Visualization**](data-visualization-analisis.md)
+## 9 [**Data Cleansing**](data-cleansing.md)
+   - Standarization, depuration and enrichment after data cleaning
+
+## 10. [**Data Visualization**](data-visualization-analisis.md)
    - The importance of data visualization for effectively communicating insights and results. Best practices for creating charts and dashboards, as well as the most commonly used tools (Tableau, Power BI, Matplotlib, etc.). How to choose the right type of visualization based on the target audience and the data being represented.
 
 ---
