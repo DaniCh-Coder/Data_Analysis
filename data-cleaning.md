@@ -77,6 +77,7 @@ df = df.drop_duplicates()
 df['City'] = df['City'].str.strip()
 
 print(df)
+
 ´´´
 
 # Conclusion
