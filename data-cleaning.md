@@ -64,5 +64,7 @@ Métodos para encontrar valores fuera de rango:
 - SQL (queries con CASE, TRIM(), DISTINCT, GROUP BY) – Para limpiar datos en bases de datos.🚀 Ejemplo en Python con Pandas
 
 # Conclusión
-El Data Cleansing es clave para garantizar que los análisis sean confiables. Puede ser la etapa mas lenta de todo el proceso de un proyecto de datos. Pero implementarlo correctamente te ahorrará tiempo y mejorará la precisión de cualquier proyecto de datos.
+El Data Cleansing es clave para garantizar que los análisis sean confiables. Puede ser la etapa mas lenta de todo el proceso de un proyecto de datos. 
++ Pero implementarlo correctamente ahora tiempo y mejora la precisión de cualquier proyecto de datos.
++ De lo contrario se avanza en el proyecto y luego se vuelve hacia a atras tantas veces que la perdida de tiempo es aún mayor.
 
