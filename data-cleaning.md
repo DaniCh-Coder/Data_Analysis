@@ -1,9 +1,10 @@
+# Data Cleaning
 Data cleaning (o limpieza de datos) es el proceso de identificar y corregir errores en un conjunto de datos para mejorar su calidad y precisión. 
 + Es un paso fundamental en el análisis de datos, ya que los datos incorrectos, duplicados o incompletos pueden llevar a decisiones equivocadas.
 
 
 
-¿Por qué es importante la limpieza de datos?
+## Necesidad e importancia de la limpieza de datos
 Los datos sucios pueden generar problemas como:
 - Errores en análisis y reportes.
 - Toma de decisiones basada en información incorrecta.
@@ -12,9 +13,9 @@ Los datos sucios pueden generar problemas como:
 
 
 
-Pasos del Data Cleaning
+## Pasos del Data Cleaning
 
-1️⃣ Identificación de errores
+### 1️. Identificación de errores
 Antes de limpiar los datos, es importante detectar los problemas más comunes:
 🔹 Valores nulos o faltantes: Celdas vacías o con información incompleta.
 🔹 Duplicados: Registros repetidos que afectan el análisis.
@@ -24,7 +25,7 @@ Antes de limpiar los datos, es importante detectar los problemas más comunes:
 
 
 
-2️⃣ Manejo de valores nulos o faltantes
+### 32️. Manejo de valores nulos o faltantes
 Métodos para tratar datos faltantes:
 - Eliminar filas o columnas con muchos valores nulos.
 - Rellenar con un valor por defecto (Ej: promedio, mediana, moda).
@@ -32,7 +33,7 @@ Métodos para tratar datos faltantes:
 
 
 
-3️⃣ Eliminación de duplicados
+### 3️. Eliminación de duplicados
 Se pueden encontrar duplicados mediante:
 - Identificación por claves únicas (Ej: ID de cliente).
 - Comparación de valores en varias columnas.
@@ -40,7 +41,7 @@ Se pueden encontrar duplicados mediante:
 
 
 
-4️⃣ Corrección de datos inconsistentes
+### 4️. Corrección de datos inconsistentes
 Unificar formatos y convenciones:
 - Estandarizar fechas, unidades de medida y nombres.
 - Convertir todo a un mismo formato (Ej: minúsculas/mayúsculas).
@@ -48,7 +49,7 @@ Unificar formatos y convenciones:
 
 
 
-5️⃣ Detección y manejo de valores atípicos
+### 5️. Detección y manejo de valores atípicos
 Métodos para encontrar valores fuera de rango:
 - Análisis de percentiles o IQR (rango intercuartílico).
 - Gráficos como boxplots para visualizar outliers.
@@ -56,12 +57,12 @@ Métodos para encontrar valores fuera de rango:
 
 
 
-🛠 Herramientas para Data Cleansing
+## Herramientas para Data Cleansing
 - Excel / Google Sheets – Funciones como BUSCARV(), Eliminar Duplicados, FILTRAR().
 - Power Query (Power BI / Excel) – Ideal para ETL (Extracción, Transformación y Carga).
 - Python (Pandas, NumPy, OpenRefine) – Para limpiar y transformar grandes volúmenes de datos.
 - SQL (queries con CASE, TRIM(), DISTINCT, GROUP BY) – Para limpiar datos en bases de datos.🚀 Ejemplo en Python con Pandas
 
-✅ Conclusión
+# Conclusión
 El Data Cleansing es clave para garantizar que los análisis sean confiables. Puede ser la etapa mas lenta de todo el proceso de un proyecto de datos. Pero implementarlo correctamente te ahorrará tiempo y mejorará la precisión de cualquier proyecto de datos.
 
