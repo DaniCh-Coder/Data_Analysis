@@ -1,70 +1,86 @@
 # Data Cleaning
-Data cleaning (o limpieza de datos) es el proceso de identificar y corregir errores en un conjunto de datos para mejorar su calidad y precisión. 
-+ Es un paso fundamental en el análisis de datos, ya que los datos incorrectos, duplicados o incompletos pueden llevar a decisiones equivocadas.
 
+Data cleaning or  is the process of identifying and correcting errors in a dataset to improve its quality and accuracy.
+- It is a fundamental step in data analysis, as incorrect, duplicate, or incomplete data can lead to incorrect decisions.
 
+## Need and Importance of Data Cleaning
 
-## Necesidad e importancia de la limpieza de datos
-Los datos sucios pueden generar problemas como:
-- Errores en análisis y reportes.
-- Toma de decisiones basada en información incorrecta.
-- Problemas en modelos de machine learning.
-- Ineficiencias en los procesos de negocio.
+Dirty data can cause issues such as:
 
+- Errors in analysis and reports.
+- Decision-making based on incorrect information.
+- Problems in machine learning models.
+- Inefficiencies in business processes.
 
+## Steps of Data Cleaning
 
-## Pasos del Data Cleaning
+1️. Identifying Errors
 
-### 1️. Identificación de errores
-Antes de limpiar los datos, es importante detectar los problemas más comunes:
-🔹 Valores nulos o faltantes: Celdas vacías o con información incompleta.
-🔹 Duplicados: Registros repetidos que afectan el análisis.
-🔹 Datos inconsistentes: Diferentes formatos para la misma información (Ej: "México" vs. "MX").
-🔹 Errores tipográficos: Nombres o códigos mal escritos.
-🔹 Valores atípicos: Datos fuera de un rango esperado.
+Before cleaning data, it is important to detect the most common issues:
 
+- Null or missing values: Empty cells or incomplete information. 
+- Duplicates: Repeated records that affect analysis. 
+- Inconsistent data: Different formats for the same information (e.g., "Mexico" vs. "MX"). 
+- Typographical errors: Misspelled names or codes. 
+- Outliers: Data outside an expected range.
 
+2️. Handling Null or Missing Values
 
-### 32️. Manejo de valores nulos o faltantes
-Métodos para tratar datos faltantes:
-- Eliminar filas o columnas con muchos valores nulos.
-- Rellenar con un valor por defecto (Ej: promedio, mediana, moda).
-- Usar interpolación o modelos predictivos para estimar valores.
+Methods for handling missing data:
 
+- Remove rows or columns with too many null values.
+- Fill in with a default value (e.g., mean, median, mode).
+- Use interpolation or predictive models to estimate values.
 
+3️. Removing Duplicates
 
-### 3️. Eliminación de duplicados
-Se pueden encontrar duplicados mediante:
-- Identificación por claves únicas (Ej: ID de cliente).
-- Comparación de valores en varias columnas.
-- Uso de herramientas como Remove Duplicates en Excel o DROP_DUPLICATES() en Python/Pandas.
+Duplicates can be found by:
 
+- Identifying through unique keys (e.g., customer ID).
+- Comparing values across multiple columns.
+- Using tools like Remove Duplicates in Excel or drop_duplicates() in Python/Pandas.
 
+4️. Correcting Inconsistent Data
 
-### 4️. Corrección de datos inconsistentes
-Unificar formatos y convenciones:
-- Estandarizar fechas, unidades de medida y nombres.
-- Convertir todo a un mismo formato (Ej: minúsculas/mayúsculas).
-- Homogeneizar categorías en variables categóricas.
+Unify formats and conventions:
+- Standardize dates, measurement units, and names.
+- Convert everything to the same format (e.g., lowercase/uppercase).
+- Homogenize categories in categorical variables.
 
+5️. Detecting and Handling Outliers
 
+Methods for finding out-of-range values:
+- Percentile or IQR (interquartile range) analysis.
+- Visualizing outliers with boxplots.
+- Deciding whether to remove, correct, or transform those values.
+- Tools for Data Cleansing
+- Excel / Google Sheets – Functions like VLOOKUP(), Remove Duplicates, FILTER().
+- Power Query (Power BI / Excel) – Ideal for ETL (Extraction, Transformation, and Load).
+- Python (Pandas, NumPy, OpenRefine) – For cleaning and transforming large data volumes.
+- SQL (queries with CASE, TRIM(), DISTINCT, GROUP BY) – For cleaning data in databases.
 
-### 5️. Detección y manejo de valores atípicos
-Métodos para encontrar valores fuera de rango:
-- Análisis de percentiles o IQR (rango intercuartílico).
-- Gráficos como boxplots para visualizar outliers.
-- Decidir si eliminar, corregir o transformar esos valores.
+## Example in Python with Pandas
+´´´python
+import pandas as pd
 
+# Sample dataset
+data = {'Name': ['Alice', 'Bob', 'Alice', 'Charlie'],
+        'Age': [25, 30, 25, 35],
+        'City': ['NY', 'LA', 'NY ', 'SF']}
 
+df = pd.DataFrame(data)
 
-## Herramientas para Data Cleansing
-- Excel / Google Sheets – Funciones como BUSCARV(), Eliminar Duplicados, FILTRAR().
-- Power Query (Power BI / Excel) – Ideal para ETL (Extracción, Transformación y Carga).
-- Python (Pandas, NumPy, OpenRefine) – Para limpiar y transformar grandes volúmenes de datos.
-- SQL (queries con CASE, TRIM(), DISTINCT, GROUP BY) – Para limpiar datos en bases de datos.🚀 Ejemplo en Python con Pandas
+# Remove duplicates
+df = df.drop_duplicates()
 
-# Conclusión
-El Data Cleansing es clave para garantizar que los análisis sean confiables. Puede ser la etapa mas lenta de todo el proceso de un proyecto de datos. 
-+ Pero implementarlo correctamente ahora tiempo y mejora la precisión de cualquier proyecto de datos.
-+ De lo contrario se avanza en el proyecto y luego se vuelve hacia a atras tantas veces que la perdida de tiempo es aún mayor.
+# Trim whitespace
+df['City'] = df['City'].str.strip()
 
+print(df)
+```
+
+# Conclusion
+
+Data cleansing is key to ensuring reliable analysis. It can be the slowest stage in a data project.
+- However, implementing it correctly saves time and improves the accuracy of any data project.
+- Otherwise, the project progresses and then moves backward so many times that the time loss becomes even greater.
