@@ -5,10 +5,10 @@ Data cleaning (o limpieza de datos) es el proceso de identificar y corregir erro
 
 ¿Por qué es importante la limpieza de datos?
 Los datos sucios pueden generar problemas como:
-✅ Errores en análisis y reportes.
-✅ Toma de decisiones basada en información incorrecta.
-✅ Problemas en modelos de machine learning.
-✅ Ineficiencias en los procesos de negocio.
+- Errores en análisis y reportes.
+- Toma de decisiones basada en información incorrecta.
+- Problemas en modelos de machine learning.
+- Ineficiencias en los procesos de negocio.
 
 
 
@@ -26,33 +26,33 @@ Antes de limpiar los datos, es importante detectar los problemas más comunes:
 
 2️⃣ Manejo de valores nulos o faltantes
 Métodos para tratar datos faltantes:
-✅ Eliminar filas o columnas con muchos valores nulos.
-✅ Rellenar con un valor por defecto (Ej: promedio, mediana, moda).
-✅ Usar interpolación o modelos predictivos para estimar valores.
+- Eliminar filas o columnas con muchos valores nulos.
+- Rellenar con un valor por defecto (Ej: promedio, mediana, moda).
+- Usar interpolación o modelos predictivos para estimar valores.
 
 
 
 3️⃣ Eliminación de duplicados
 Se pueden encontrar duplicados mediante:
-✅ Identificación por claves únicas (Ej: ID de cliente).
-✅ Comparación de valores en varias columnas.
-✅ Uso de herramientas como Remove Duplicates en Excel o DROP_DUPLICATES() en Python/Pandas.
+- Identificación por claves únicas (Ej: ID de cliente).
+- Comparación de valores en varias columnas.
+- Uso de herramientas como Remove Duplicates en Excel o DROP_DUPLICATES() en Python/Pandas.
 
 
 
 4️⃣ Corrección de datos inconsistentes
 Unificar formatos y convenciones:
-✅ Estandarizar fechas, unidades de medida y nombres.
-✅ Convertir todo a un mismo formato (Ej: minúsculas/mayúsculas).
-✅ Homogeneizar categorías en variables categóricas.
+ Estandarizar fechas, unidades de medida y nombres.
+ Convertir todo a un mismo formato (Ej: minúsculas/mayúsculas).
+ Homogeneizar categorías en variables categóricas.
 
 
 
 5️⃣ Detección y manejo de valores atípicos
 Métodos para encontrar valores fuera de rango:
-✅ Análisis de percentiles o IQR (rango intercuartílico).
-✅ Gráficos como boxplots para visualizar outliers.
-✅ Decidir si eliminar, corregir o transformar esos valores.
+ Análisis de percentiles o IQR (rango intercuartílico).
+ Gráficos como boxplots para visualizar outliers.
+ Decidir si eliminar, corregir o transformar esos valores.
 
 
 
