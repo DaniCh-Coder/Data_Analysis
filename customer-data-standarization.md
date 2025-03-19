@@ -8,6 +8,7 @@ To delve deeper into data standardization (which is part of the data cleansing p
 - [E-mail](#e-mail)
 - [Implementation in Power BI with Power Query](#implementation-in-power-bi-with-power-query)
 - [Additional Considerations](#additional-considerations)
+
 Based on this structure, let's see what the recommendations are for standardization in each case or dimension.
 
 ## Customer ID
