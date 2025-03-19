@@ -42,26 +42,26 @@ Se pueden encontrar duplicados mediante:
 
 4️⃣ Corrección de datos inconsistentes
 Unificar formatos y convenciones:
- Estandarizar fechas, unidades de medida y nombres.
- Convertir todo a un mismo formato (Ej: minúsculas/mayúsculas).
- Homogeneizar categorías en variables categóricas.
+- Estandarizar fechas, unidades de medida y nombres.
+- Convertir todo a un mismo formato (Ej: minúsculas/mayúsculas).
+- Homogeneizar categorías en variables categóricas.
 
 
 
 5️⃣ Detección y manejo de valores atípicos
 Métodos para encontrar valores fuera de rango:
- Análisis de percentiles o IQR (rango intercuartílico).
- Gráficos como boxplots para visualizar outliers.
- Decidir si eliminar, corregir o transformar esos valores.
+- Análisis de percentiles o IQR (rango intercuartílico).
+- Gráficos como boxplots para visualizar outliers.
+- Decidir si eliminar, corregir o transformar esos valores.
 
 
 
 🛠 Herramientas para Data Cleansing
-🔹 Excel / Google Sheets – Funciones como BUSCARV(), Eliminar Duplicados, FILTRAR().
-🔹 Power Query (Power BI / Excel) – Ideal para ETL (Extracción, Transformación y Carga).
-🔹 Python (Pandas, NumPy, OpenRefine) – Para limpiar y transformar grandes volúmenes de datos.
-🔹 SQL (queries con CASE, TRIM(), DISTINCT, GROUP BY) – Para limpiar datos en bases de datos.🚀 Ejemplo en Python con Pandas
+- Excel / Google Sheets – Funciones como BUSCARV(), Eliminar Duplicados, FILTRAR().
+- Power Query (Power BI / Excel) – Ideal para ETL (Extracción, Transformación y Carga).
+- Python (Pandas, NumPy, OpenRefine) – Para limpiar y transformar grandes volúmenes de datos.
+- SQL (queries con CASE, TRIM(), DISTINCT, GROUP BY) – Para limpiar datos en bases de datos.🚀 Ejemplo en Python con Pandas
 
 ✅ Conclusión
-El Data Cleansing es clave para garantizar que los análisis sean confiables. Implementarlo correctamente te ahorrará tiempo y mejorará la precisión de cualquier proyecto de datos.
+El Data Cleansing es clave para garantizar que los análisis sean confiables. Puede ser la etapa mas lenta de todo el proceso de un proyecto de datos. Pero implementarlo correctamente te ahorrará tiempo y mejorará la precisión de cualquier proyecto de datos.
 
