@@ -37,7 +37,11 @@ A good start ensures that the data is ready for analysis, avoiding issues such a
    - Organizing data in a database to reduce redundancy and improve data integrity. Dividing large tables into smaller, related tables and establishing relationships between them using primary and foreign keys.
 
 ## 7. [**Data Validation and Verification**](data-validation-verification.md)
-   - Techniques and tools for verifying data quality and consistency. Identifying missing values, duplicates, formatting errors, and outliers. It is also important to mention how to establish data validation processes to ensure reliability before using the data for analysis.
+   - Techniques and tools for verifying data quality and consistency. Identifying missing values, duplicates, formatting errors, and outliers. Diagnosis. 
+
+## 8. [**Data Cleaning**](data-cleaning.md)
+   - Processing an cleaning dirty data
+   - It is also important to mention how to establish data validation processes to ensure reliability before using the data for analysis.
 
 ## 8. [**Data Visualization**](data-visualization-analisis.md)
    - The importance of data visualization for effectively communicating insights and results. Best practices for creating charts and dashboards, as well as the most commonly used tools (Tableau, Power BI, Matplotlib, etc.). How to choose the right type of visualization based on the target audience and the data being represented.
