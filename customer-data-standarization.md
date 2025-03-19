@@ -1,6 +1,5 @@
 # Customer Data Standardization
-
-## Table of Contents
+To delve deeper into data standardization (which is part of the data cleansing process), let's take as an example a customer database that has the following dimensions:
 - [Customer ID](#customer-id)
 - [Name](#name)
 - [Identity Document](#identity-document)
@@ -9,6 +8,7 @@
 - [E-mail](#e-mail)
 - [Implementation in Power BI with Power Query](#implementation-in-power-bi-with-power-query)
 - [Additional Considerations](#additional-considerations)
+Based on this structure, let's see what the recommendations are for standardization in each case or dimension.
 
 ## Customer ID
 
