@@ -50,7 +50,7 @@ def standardize_id(df):
     return df
 ```
 _____________________________________________________________________________________________
-Go go deeper into the [**standardization of customer identification**](client_id_standar.md).
+Go go deeper into the [**standardization of customer identification**](client-id-standar.md).
 _____________________________________________________________________________________________
 
 ## Name
