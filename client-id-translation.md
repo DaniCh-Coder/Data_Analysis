@@ -162,7 +162,7 @@ Use duplicate detection rules in CRM to block redundant insertions.
 **Data Standardization**:
 Normalize formats (e.g., +54 9 11 50506060 for Argentine phones) to avoid variations.
 
-### Practical Cases
+#### Practical Cases
 
 **Example 1: Detection in Dynamics CRM**
 
