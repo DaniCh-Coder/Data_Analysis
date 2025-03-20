@@ -6,6 +6,8 @@ To delve deeper into data standardization (which is part of the data cleansing p
 - [Address](#address-street-number)
 - [Postal Code](#postal-code-zip-code)
 - [E-mail](#e-mail)
+- [Phone](#phone)
+- [Date](#Date)
 - [Implementation in Power BI with Power Query](#implementation-in-power-bi-with-power-query)
 - [Additional Considerations](#additional-considerations)
 
