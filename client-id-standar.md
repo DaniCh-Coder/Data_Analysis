@@ -1,7 +1,5 @@
 # Client ID Standard
-## Standardization of Client Identifiers
-
-## Standards and Best Practices for Client ID
+## Standardization of Client Identifiers: Standards and Best Practices for Client ID
 The client ID is a critical field that requires rigorous design and management. Let's first look at criteria derived from best practices. Some criteria for this are as follows.
 
 ### 1. Structure and Format
