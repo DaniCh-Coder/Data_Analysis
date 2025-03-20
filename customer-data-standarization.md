@@ -49,7 +49,7 @@ def standardize_id(df):
     df['standardized_ID'] = df['standardized_ID'].str.replace(r'[^\w]', '', regex=True)
     return df
 ```
-Go go deeper into the [**standardization of customer identification**](client_id_standar).
+Go go deeper into the [**standardization of customer identification**](client_id_standar.md).
 
 ## Name
 
