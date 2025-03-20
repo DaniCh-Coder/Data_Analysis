@@ -1,4 +1,4 @@
-# Client ID
+# Client ID Standard
 ## Standardization of Client Identifiers
 
 ## Standards and Best Practices for Client ID
