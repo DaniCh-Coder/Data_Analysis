@@ -239,5 +239,3 @@ For critical systems, it is recommended to combine:
 - MDM tools
 - Monthly audits with detection queries.
 
-## References:
-[List of 24 references omitted for brevity]
