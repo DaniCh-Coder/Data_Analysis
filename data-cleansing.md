@@ -29,6 +29,9 @@ SET city = 'Mexico City'
 WHERE city IN ('CDMX', 'Mexico City', 'D.F.');
 ```
 
+To delve deeper into data standardization (which is part of the data cleansing process), let's take as an example a [**customer database example**](customer-data-standarization.md) that has the following dimensions:
+Customer Id., Name, Identity document, adress, postal code, e-mail, phone, date.
+
 ### 3. Data Validation
 Here, business rules are applied to ensure that the data is correct.
 
