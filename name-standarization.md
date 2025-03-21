@@ -1,5 +1,7 @@
 # Standardization of Customer Names in Databases
-
+- personal names
+- companies names
+  
 ## Recommended Structure for Name Fields
 Instead of a single "Name" field, it is recommended to separate it into multiple fields:
 - **Title/Salutation (optional):** Dr., Mr., Mrs., etc.
