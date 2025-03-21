@@ -105,7 +105,7 @@ ________________________________________________________________________________
 Go deeper into the [**standardization of personal and companies names**](name-standarization.md).
 _____________________________________________________________________________________________
 
-## Identity Document
+## Identity Document of individuals and companies
 
 **Best Practices:**
 - Format specific to country/document type
@@ -146,6 +146,9 @@ def standardize_document(df, column='Document'):
     
     return df
 ```
+_____________________________________________________________________________________________
+Go deeper into the [**standardization of identification documents for individuals and companies**](ids-standards.md).
+_____________________________________________________________________________________________
 
 ## Address (Street, Number)
 
