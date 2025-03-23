@@ -365,7 +365,6 @@ in
     StandardizeCustomerData
 ```
 ### Phone numbers
-
 Phone number standardization is essential for ensuring accuracy in global telecommunications. It follows international standards such as **ITU-T Recommendation E.164**, which defines a global numbering structure with a maximum of 15 digits, a country code, and a national number, all stored without spaces or symbols.
 
 #### **Key Standards**
@@ -389,7 +388,9 @@ Phone number standardization is essential for ensuring accuracy in global teleco
 - **NumVerify & Twilio Lookup API**: Provide validation and enrichment services.
 
 By adhering to these principles and utilizing specialized tools, phone number standardization improves data quality and facilitates seamless global communication.
-
+_____________________________________________________________________________________________
+Go deeper into the [**standardization of phone numbers**](phone-standard.md).
+_____________________________________________________________________________________________
 
 ## Additional Considerations
 
