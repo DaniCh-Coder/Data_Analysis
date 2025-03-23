@@ -157,3 +157,131 @@ def standardize_number(input_number, default_country=None):
 ```
 
 ### NumVerify API
+This REST API allows you to validate and obtain information about phone numbers.
+
+```python
+import requests
+
+def verify_number(number, api_key):
+    # Ensure the number does not have the "+" sign
+    if number.startswith('+'):
+        number = number[1:]
+    
+    url = f"http://apilayer.net/api/validate?access_key={api_key}&number={number}"
+    
+    try:
+        response = requests.get(url)
+        data = response.json()
+        
+        if data.get("valid"):
+            return {
+                "status": "valid",
+                "e164": "+" + data.get("international_format").replace(" ", ""),
+                "international": data.get("international_format"),
+                "national": data.get("local_format"),
+                "country_code": data.get("country_prefix"),
+                "country": data.get("country_name"),
+                "type": data.get("line_type"),
+                "carrier": data.get("carrier"),
+                "location": data.get("location")
+            }
+        else:
+            return {
+                "status": "invalid",
+                "message": "Invalid number"
+            }
+    except Exception as e:
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+```
+
+---
+
+## Practical Examples by Country
+
+### 1. United States
+
+#### Characteristics of the NANP (North American Numbering Plan) system:
+
+- **Country code:** +1  
+- **Structure:** NXX-NXX-XXXX (where N=2-9, X=0-9)  
+- **10 digits (excluding the country code)**  
+
+#### Standardization examples:
+
+| Input                  | E.164 Result  | International Format | National Format |
+|------------------------|--------------|----------------------|-----------------|
+| (212) 555-1234        | +12125551234  | +1 212 555 1234      | (212) 555-1234  |
+| 646.555.4321          | +16465554321  | +1 646 555 4321      | (646) 555-4321  |
+| 1-800-123-4567        | +18001234567  | +1 800 123 4567      | (800) 123-4567  |
+
+#### Processing with libphonenumber:
+
+```python
+usa_number = standardize_number("(212) 555-1234", "US")
+```
+
+---
+
+### 2. Spain
+
+#### Characteristics:
+- **Country code:** +34  
+- **Structure:** 9 digits after the country code  
+- **Mobile numbers:** Start with 6 or 7  
+- **Landline numbers:** Start with 8 or 9  
+
+#### Standardization examples:
+
+| Input                | E.164 Result  | International Format | National Format |
+|----------------------|--------------|----------------------|-----------------|
+| 91 123 45 67        | +34911234567  | +34 911 23 45 67     | 911 23 45 67    |
+| 600.12.34.56        | +34600123456  | +34 600 12 34 56     | 600 12 34 56    |
+| 0034 922 123 456    | +34922123456  | +34 922 12 34 56     | 922 12 34 56    |
+
+#### Processing with libphonenumber:
+
+```python
+spain_number = standardize_number("91 123 45 67", "ES")
+```
+
+---
+
+### 3. Argentina
+
+#### Characteristics:
+- **Country code:** +54  
+- **Complex structure with variable-length area codes**  
+- **Prefix "0" for national calls**  
+- **Prefix "15" for local mobile numbers**  
+
+#### Standardization examples:
+
+| Input                 | E.164 Result  | International Format | National Format |
+|-----------------------|--------------|----------------------|-----------------|
+| (011) 4123-4567      | +541141234567 | +54 11 4123-4567     | 011 4123-4567   |
+| 0351 15-678-9012     | +543516789012 | +54 351 678-9012     | 0351 15-678-9012 |
+| +54 9 223 456-7890   | +5492234567890| +54 9 223 456-7890   | 0223 15-456-7890 |
+
+#### Processing with libphonenumber:
+
+```python
+argentina_number = standardize_number("011 4123-4567", "AR")
+```
+
+---
+
+## Advanced Considerations
+
+- **Mobile numbers in Argentina:** The Argentine system uses the prefix "9" in international format for mobile numbers but "15" in national format, adding complexity.  
+- **Numbering changes:** National numbering plans change periodically. For example, Spain added an extra digit to its landline numbers in 1998.  
+- **Contextual formatting:** The presentation format should adapt depending on the context:  
+  - For local users: **National format**  
+  - For international communications: **E.164 or international format**  
+- **Optimal storage:** Always store numbers in **canonical E.164 format (+CCNNNNN...)**  
+- **Error handling:** Implement a strategy for unverifiable numbers (store them in the original format but mark them as unverified).  
+
+The process of standardizing phone numbers requires a combination of general rules and country-specific exceptions, so using libraries like `libphonenumber` greatly simplifies this task and reduces errors.
+
