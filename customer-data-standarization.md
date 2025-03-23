@@ -248,7 +248,7 @@ def standardize_zipcode(df, column='zip_code', country='USA'):
     return df
 ```
 _____________________________________________________________________________________________
-Go deeper into the [**standardization of personal and companies addresses**](address-standars.md).
+Go deeper into the [**standardization of personal and companies addresses**](address-standards.md).
 _____________________________________________________________________________________________
 ## E-mail
 
