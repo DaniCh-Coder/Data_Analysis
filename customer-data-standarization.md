@@ -6,7 +6,7 @@ To delve deeper into data standardization (which is part of the data cleansing p
 - [Address](#address-street-number)
 - [Postal Code](#postal-code-zip-code)
 - [E-mail](#e-mail)
-- [Phone](#phone)
+- [Phone](#phone-numbers)
 - [Date](#Date)
 
 See also:
