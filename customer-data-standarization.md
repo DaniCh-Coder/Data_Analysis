@@ -298,7 +298,7 @@ def standardize_email(df, column='e-mail'):
     return df
 ```
 
-## Implementation in Power BI with Power Query
+### Implementation in Power BI with Power Query
 
 To perform a complete standardization in Power BI, the recommended approach is to use Power Query. Here's how to implement a complete solution:
 
@@ -364,6 +364,32 @@ let
 in
     StandardizeCustomerData
 ```
+### Phone numbers
+
+Phone number standardization is essential for ensuring accuracy in global telecommunications. It follows international standards such as **ITU-T Recommendation E.164**, which defines a global numbering structure with a maximum of 15 digits, a country code, and a national number, all stored without spaces or symbols.
+
+#### **Key Standards**
+- **E.164:** Defines the structure of international phone numbers.
+- **E.123:** Provides formatting guidelines for visual representation.
+- **ISO 3166-1:** Establishes country codes used in phone numbering.
+
+#### **Best Practices**
+1. **Storage:** Use the full E.164 format and treat numbers as strings.
+2. **Processing:** Validate numbers using tools like Google libphonenumber.
+3. **Presentation:** Format numbers according to context (national/international).
+4. **Handling Exceptions:** Consider special numbers and internal extensions.
+
+#### **Regional Applications**
+- **North America (USA & Canada):** Uses the **NANP** system (+1), with a uniform 10-digit structure.
+- **Argentina:** Uses **+54** with complex rules, requiring different formats for local and mobile numbers.
+- **Europe & Asia:** Follow diverse national numbering plans with varying lengths.
+
+#### **Implementation Tools**
+- **Google libphonenumber**: A widely used library for parsing and formatting numbers.
+- **NumVerify & Twilio Lookup API**: Provide validation and enrichment services.
+
+By adhering to these principles and utilizing specialized tools, phone number standardization improves data quality and facilitates seamless global communication.
+
 
 ## Additional Considerations
 
