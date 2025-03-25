@@ -364,6 +364,10 @@ let
 in
     StandardizeCustomerData
 ```
+_____________________________________________________________________________________________
+Go deeper into the [**standardization of e-mails**](3-mail-standard.md).
+_____________________________________________________________________________________________
+
 ### Phone numbers
 Phone number standardization is essential for ensuring accuracy in global telecommunications. It follows international standards such as **ITU-T Recommendation E.164**, which defines a global numbering structure with a maximum of 15 digits, a country code, and a national number, all stored without spaces or symbols.
 
