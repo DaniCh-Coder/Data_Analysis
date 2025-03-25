@@ -365,7 +365,7 @@ in
     StandardizeCustomerData
 ```
 _____________________________________________________________________________________________
-Go deeper into the [**standardization of e-mails**](3-mail-standard.md).
+Go deeper into the [**standardization of e-mails**](e-mail-standard.md).
 _____________________________________________________________________________________________
 
 ### Phone numbers
