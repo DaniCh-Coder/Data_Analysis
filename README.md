@@ -45,6 +45,10 @@ Some experts argue that data cleansing goes beyond data cleaning, and this asser
 - Data clearing: Reliable, enriched data ready for strategic analysis.
 - Data cleaning: Clean and usable data in the short term.
 
+## Data standarizacion
+- Data standardization is an essential component of data cleansing because it ensures that data is consistent, accurate, and easy to analyze. By unifying formats and eliminating ambiguities, data quality is significantly improved, which in turn allows for more accurate insights and informed decisions.
+- In short, standardization is a fundamental part of the data cleansing process, as it makes it easier to identify and correct errors and prevents future problems by establishing a clear framework for data management.
+
 # **Data Project Management**
 
 ## 1. [**Methodologies for Data Project Management**](methodology-analysis.md)
