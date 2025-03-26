@@ -410,7 +410,7 @@ Best practices include:
 Converting all dates to UTC for storage ensures consistency, while business rules help maintain logical integrity (e.g., birth_date ≤ registration_date). Tools such as Python (Pandas), SQL, Power BI, and ETL platforms enable automation in detecting, transforming, and validating date-time values.
 Proper standardization improves data reliability and ensures seamless integration across databases and applications.
 _____________________________________________________________________________________________
-Go deeper into the [**standardization of date and time**](date-time.md).
+Go deeper into the [**standardization of date and time**](date-time-standard.md).
 _____________________________________________________________________________________________
 
 
