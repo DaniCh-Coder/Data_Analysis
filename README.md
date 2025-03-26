@@ -24,6 +24,27 @@ Data cleansing and data cleaning are essentially the same. Both terms refer to t
 ### 2. Data cleansing is more than just data cleaning
 Some experts argue that data cleansing goes beyond data cleaning, and this assertion is based on the differences between the two concepts. Although the terms are often used interchangeably, they have nuances that distinguish them in the context of data management.
 
+### Diferencias entre Data Cleansing y Data Cleaning
+**Definicion:**
+- Data cleansing: Proceso integral que no solo corrige errores, sino que identifica y aborda las causas raíz para prevenir futuros problemas.
+- Data cleaning: Proceso básico para corregir errores evidentes como duplicados, valores faltantes o mal formateados.
+
+**Enfoque:**
+- Data cleansing: Más profundo, incluye validación, enriquecimiento y análisis de patrones problemáticos. Incluye ademas automaticaciones, estandarizaciones y control de impactos.
+- Data cleaning: Centrado en la corrección directa de errores visibles.
+
+**Prevención:**
+- Data cleaning: Busca evitar que los problemas se repitan mediante ajustes en procesos o sistemas.
+- Data cleaning: No aborda las causas raíz; se limita a limpiar los datos existentes.
+
+**Intervención manual:**
+- Data cleansing: Requiere colaboración con expertos del dominio para validar y enriquecer los datos.
+- Data cleaning: Generalmente automatizado, con poca intervención manual. Modificaciones menores.
+
+**Resultado esperado:**
+- Data cleasing: Datos confiables, enriquecidos y listos para análisis estratégico.
+- Data cleaning: Datos limpios y utilizables en el corto plazo.
+
 # **Table of Contents: Data Project Management**
 
 ## 1. [**Methodologies for Data Project Management**](methodology-analysis.md)
