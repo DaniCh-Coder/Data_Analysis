@@ -16,6 +16,14 @@ Data analysis is the process of inspecting, cleaning, transforming, and modeling
 ## Importance of the Initial Phase:
 A good start ensures that the data is ready for analysis, avoiding issues such as biases, errors, or lack of quality in the results.
 
+## Data Cleaning and Data Cleansing
+There are similarities but also differences:
+### 1. Data cleaning and data cleansing are the same thing
+Some authors argue that data cleaning and data clearing are the same thing. From this perspective, the following is true:
+Data cleansing and data cleaning are essentially the same. Both terms refer to the process of identifying and correcting or eliminating errors, inconsistencies, and inaccurate data in a data set.
+### 2. Data cleansing is more than just data cleaning
+Some experts argue that data cleansing goes beyond data cleaning, and this assertion is based on the differences between the two concepts. Although the terms are often used interchangeably, they have nuances that distinguish them in the context of data management.
+
 # **Table of Contents: Data Project Management**
 
 ## 1. [**Methodologies for Data Project Management**](methodology-analysis.md)
