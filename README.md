@@ -24,28 +24,28 @@ Data cleansing and data cleaning are essentially the same. Both terms refer to t
 ### 2. Data cleansing is more than just data cleaning
 Some experts argue that data cleansing goes beyond data cleaning, and this assertion is based on the differences between the two concepts. Although the terms are often used interchangeably, they have nuances that distinguish them in the context of data management.
 
-### Diferencias entre Data Cleansing y Data Cleaning
-**Definicion:**
-- Data cleansing: Proceso integral que no solo corrige errores, sino que identifica y aborda las causas raíz para prevenir futuros problemas.
-- Data cleaning: Proceso básico para corregir errores evidentes como duplicados, valores faltantes o mal formateados.
+### Differences between Data Cleansing and Data Cleaning
+**Definition:**
+- Data cleansing: A comprehensive process that not only corrects errors but also identifies and addresses root causes to prevent future problems.
+- Data cleaning: A basic process for correcting obvious errors such as duplicates, missing, or poorly formatted values.
 
-**Enfoque:**
-- Data cleansing: Más profundo, incluye validación, enriquecimiento y análisis de patrones problemáticos. Incluye ademas automaticaciones, estandarizaciones y control de impactos.
-- Data cleaning: Centrado en la corrección directa de errores visibles.
+**Approach:**
+- Data cleansing: A more in-depth process that includes validation, enrichment, and analysis of problematic patterns. It also includes automation, standardization, and impact control.
+- Data cleaning: Focused on the direct correction of visible errors.
 
-**Prevención:**
-- Data cleaning: Busca evitar que los problemas se repitan mediante ajustes en procesos o sistemas.
-- Data cleaning: No aborda las causas raíz; se limita a limpiar los datos existentes.
+**Prevention:**
+- Data cleaning: Seeks to prevent problems from recurring through adjustments to processes or systems.
+- Data cleaning: Does not address root causes; it merely cleans existing data.
 
-**Intervención manual:**
-- Data cleansing: Requiere colaboración con expertos del dominio para validar y enriquecer los datos.
-- Data cleaning: Generalmente automatizado, con poca intervención manual. Modificaciones menores.
+**Manual intervention:**
+- Data cleansing: Requires collaboration with domain experts to validate and enrich the data.
+- Data cleaning: Generally automated, with little manual intervention. Minor modifications.
 
-**Resultado esperado:**
-- Data cleasing: Datos confiables, enriquecidos y listos para análisis estratégico.
-- Data cleaning: Datos limpios y utilizables en el corto plazo.
+**Expected result:**
+- Data clearing: Reliable, enriched data ready for strategic analysis.
+- Data cleaning: Clean and usable data in the short term.
 
-# **Table of Contents: Data Project Management**
+# **Data Project Management**
 
 ## 1. [**Methodologies for Data Project Management**](methodology-analysis.md)
    - The most widely used methodologies in data project management, such as **CRISP-DM**, **SEMMA**, **TDSP**, and **Agile Data Science**.
