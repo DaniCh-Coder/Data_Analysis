@@ -396,6 +396,24 @@ ________________________________________________________________________________
 Go deeper into the [**standardization of phone numbers**](phone-standard.md).
 _____________________________________________________________________________________________
 
+## Date
+Ensuring data quality in date and time fields is a critical aspect of data cleansing. 
+
+- This involves standardizing formats, correcting inconsistencies, and ensuring data is interpretable across different systems and regions. 
+- The ISO 8601 format is recommended as the international standard, structuring dates as YYYY-MM-DD and including time zones when necessary. 
+- Since different regions use varying formats (e.g., MM/DD/YYYY in the U.S. vs. DD/MM/YYYY in Europe), standardization helps prevent errors and misinterpretations.
+
+Best practices include:
+- validating formats,
+- handling time zones,
+- correcting input errors, and detecting missing or incorrect data.
+Converting all dates to UTC for storage ensures consistency, while business rules help maintain logical integrity (e.g., birth_date ≤ registration_date). Tools such as Python (Pandas), SQL, Power BI, and ETL platforms enable automation in detecting, transforming, and validating date-time values.
+Proper standardization improves data reliability and ensures seamless integration across databases and applications.
+_____________________________________________________________________________________________
+Go deeper into the [**standardization of date and time**](date-time.md).
+_____________________________________________________________________________________________
+
+
 ## Additional Considerations
 
 ### Validation and Monitoring
