@@ -24,7 +24,7 @@ Data cleansing and data cleaning are essentially the same. Both terms refer to t
 ### 2. Data cleansing is more than just data cleaning
 Some experts argue that data cleansing goes beyond data cleaning, and this assertion is based on the differences between the two concepts. Although the terms are often used interchangeably, they have nuances that distinguish them in the context of data management.
 
-### Differences between Data Cleansing and Data Cleaning
+### 3. Differences between Data Cleansing and Data Cleaning
 **Definition:**
 - Data cleansing: A comprehensive process that not only corrects errors but also identifies and addresses root causes to prevent future problems.
 - Data cleaning: A basic process for correcting obvious errors such as duplicates, missing, or poorly formatted values.
